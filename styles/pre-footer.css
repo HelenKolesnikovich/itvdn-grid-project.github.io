@@ -1,0 +1,100 @@
+.pre-footer {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 40vh;
+}
+.pre-footer__image {
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+}
+.pre-footer__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.pre-footer__info {
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 70%;
+    padding: 7rem 3rem;
+    background-color: var(--light);
+}
+.pre-footer__info-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-width: 20%;
+    max-width: 30%;
+    font-size: 1.4rem;
+    line-height: 23px;
+    color: var(--grey);
+}
+.pre-footer__info-block h4 {
+    margin-bottom: 4rem;
+    font-size: 1.4rem;
+    line-height: 11px;
+    color: var(--dark);
+}
+.pre-footer__info-block a,
+.pre-footer__info-block span {
+    display: block;
+    margin-top: 1.4rem;
+}
+
+@media all and (max-width: 1020px) {
+    .pre-footer {
+        height: auto;
+    }
+    .pre-footer__image  {
+        width: 75%;
+    }
+    .pre-footer__image img {
+        object-fit: contain;
+    }
+    .pre-footer__info {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5% 5% 2%;
+    }
+    .pre-footer__info-block {
+        margin-bottom: 5%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .pre-footer {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .pre-footer__info-block {
+        justify-content: space-around;
+        align-items: center;
+        min-width: 50%;
+        max-width: 70%;
+        margin-bottom: 10%;
+        text-align: center;
+    }
+    .pre-footer__info-block:last-child {
+        margin-bottom: 0;
+    }
+    .pre-footer__info-block h4 {
+        margin-bottom: 5%;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .pre-footer__image {
+        width: 100%;
+    }
+    .pre-footer__info {
+        width: 100%;
+        padding: 5%;
+    }
+}

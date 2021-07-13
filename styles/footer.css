@@ -1,0 +1,17 @@
+.footer {
+    width: 100%;
+    padding: 3rem 0;
+    background-color: var(--accent);
+    color: var(--light);
+}
+.footer__text {
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+@media all and (max-width: 480px) {
+    .footer {
+        padding: 5%;
+        text-align: center;
+    }
+}

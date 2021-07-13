@@ -1,0 +1,103 @@
+.contacts {
+    justify-content: space-between;
+    width: 100%;
+    height: 70vh;
+    background-color: var(--dark);
+    color: var(--light);
+}
+.contacts__text {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 70%;
+    padding: 5%;
+}
+.contacts__title {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 12px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+}
+.contacts__text-part {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.contacts__text-part h4 {
+    margin-bottom: 3.6rem;
+    font-size: 6.4rem;
+    line-height: 94px;
+    text-transform: capitalize;
+}
+.contacts__text-part p {
+    margin-bottom: 3.6rem;
+    font-size: 3.6rem;
+    line-height: 53px;
+}
+.contacts__text-part a {
+    padding-bottom: .5rem;
+    border-bottom: 1px solid var(--dark);
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 23px;
+    letter-spacing: .1em;
+    color: var(--light);
+    cursor: pointer;
+    transition-property: border, color, font-weight;
+    transition: .5s ease-out;
+}
+.contacts__text-part a:hover,
+.contacts__text-part a:focus {
+    border-bottom: 1px solid var(--accent);
+    font-weight: 600;
+    color: var(--accent);
+}
+.contacts__image {
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+}
+.contacts__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+@media all and (max-width: 1020px) {
+    .contacts__text {
+        width: 50%;
+        padding: 5% 5% 10%;
+    }
+    .contacts__text-part h4 {
+        font-size: 3.4rem;
+        line-height: 64px;
+    }
+    .contacts__text-part p {
+        font-size: 2.6rem;
+        line-height: 23px;
+    }
+    .contacts__image {
+        width: 50%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .contacts {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: auto;
+    }
+    .contacts__text {
+        width: 100%;
+        padding: 5%;
+    }
+    .contacts__title {
+        margin-bottom: 5%;
+    }
+    .contacts__image {
+        display: none;
+    }
+}

@@ -1,0 +1,15 @@
+.grid1 {
+    grid-template-columns: repeat(4, minmax(25%, 1fr));
+    grid-template-rows: minmax(250px, 1fr);
+    grid-auto-rows: minmax(250px, 1fr);
+}
+.grid1__item {
+    padding: 5rem;
+}
+
+@media all and (max-width: 768px) {
+    .grid1 {
+        width: 100%;
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    }
+}

@@ -1,0 +1,22 @@
+.heading-type1 {
+    position: relative;
+    left: 10px;
+    padding: 2rem;
+    border-top: 1px solid var(--light);
+    font-size: 3.2rem;
+    line-height: 34px;
+    font-weight: 400;
+    color: var(--light);
+    text-transform: capitalize;
+}
+.heading-type1::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--attentionColor);
+}

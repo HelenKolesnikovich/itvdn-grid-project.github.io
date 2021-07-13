@@ -1,0 +1,74 @@
+.page-container {
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "header"
+        "why-thrive"
+        "about-us"
+        "grid1"
+        "physical-health"
+        "nutritional-plans"
+        "contacts"
+        "pre-footer"
+        "footer";
+}
+
+@media all and (max-width: 480px) {
+    .page-container {
+        grid-template-areas: 
+            "header"
+            "why-thrive"
+            "physical-health"
+            "about-us"
+            "grid1"
+            "contacts"
+            "nutritional-plans"            
+            "pre-footer"
+            "footer";
+    }
+}
+
+.header {
+    grid-column: 1;
+    grid-row: 1;
+    grid-area: header;
+}
+.why-thrive {
+    grid-column: 1;
+    grid-row: 2;
+    grid-area: why-thrive;
+}
+.about-us {
+    grid-column: 1;
+    grid-row: 3;
+    grid-area: about-us;
+}
+.grid1 {
+    grid-column: 1;
+    grid-row: 4;
+    grid-area: grid1;
+}
+.physical-health {
+    grid-column: 1;
+    grid-row: 5;
+    grid-area: physical-health;
+}
+.nutritional-plans {
+    grid-column: 1;
+    grid-row: 6;
+    grid-area: nutritional-plans;
+}
+.contacts {
+    grid-column: 1;
+    grid-row: 7;
+    grid-area: contacts;
+}
+.pre-footer {
+    grid-column: 1;
+    grid-row: 8;
+    grid-area: pre-footer;
+}
+.footer {
+    grid-column: 1;
+    grid-row: 9;
+    grid-area: footer;
+}

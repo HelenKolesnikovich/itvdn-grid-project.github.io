@@ -1,0 +1,188 @@
+@media all and (max-width: 1020px) {
+    /*.why-thrive__description p {
+        font-size: 2rem;
+    }*/
+    /*.nutritional-plans {
+        grid-template-columns: repeat(auto-fit, minmax(45rem, 1fr));
+        padding-bottom: 5rem;
+    }*/
+    /*.contacts__text {
+        width: 50%;
+        padding: 5% 5% 10%;
+    }
+    .contacts__text-part h4 {
+        font-size: 3.4rem;
+        line-height: 64px;
+    }
+    .contacts__text-part p {
+        font-size: 2.6rem;
+        line-height: 23px;
+    }
+    .contacts__image {
+        width: 50%;
+    }*/
+    /*.pre-footer {
+        height: auto;
+    }
+    .pre-footer__image  {
+        width: 75%;
+    }
+    .pre-footer__image img {
+        object-fit: contain;
+    }
+    .pre-footer__info {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5% 5% 2%;
+    }
+    .pre-footer__info-block {
+        margin-bottom: 5%;
+    }*/
+}
+
+@media all and (max-width: 768px) {
+    /*.header {
+        height: 10vh;
+    }
+    .header > .section-container {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+    }*/
+
+    /*.why-thrive {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+
+    }
+    .why-thrive__description {
+        width: 100%;
+    }
+    .why-thrive__image {
+        display: none;
+    }*/
+
+    /*.about-us .section-container {
+        width: 70%;
+    }*/
+
+    /*.grid1 {
+        width: 100%;
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    }*/
+    /*.physical-health {
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        grid-template-rows: repeat(2, minmax(25rem, 1fr));
+        grid-auto-rows: 25rem;
+    }*/
+
+    /*.nutritional-plans {
+        grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    }*/
+
+    /*.contacts {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: auto;
+    }
+    .contacts__text {
+        width: 100%;
+        padding: 5%;
+    }
+    .contacts__title {
+        margin-bottom: 5%;
+    }
+    .contacts__image {
+        display: none;
+    }*/
+    /*.pre-footer {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .pre-footer__info-block {
+        justify-content: space-around;
+        align-items: center;
+        min-width: 50%;
+        max-width: 70%;
+        margin-bottom: 10%;
+        text-align: center;
+    }
+    .pre-footer__info-block:last-child {
+        margin-bottom: 0;
+    }
+    .pre-footer__info-block h4 {
+        margin-bottom: 5%;
+    }*/
+}
+
+
+@media all and (max-width: 480px) {
+    /*.page-container {
+        grid-template-areas: 
+            "header"
+            "why-thrive"
+            "physical-health"
+            "about-us"
+            "grid1"
+            "contacts"
+            "nutritional-plans"            
+            "pre-footer"
+            "footer";
+    }*/
+    /*.why-thrive__description {
+        align-items: center;
+        padding: 5%;
+        text-align: center;
+    }
+    .why-thrive__description h2 {
+        margin-bottom: 2.6rem;
+        font-size: 26px;
+    }
+    .why-thrive__description span {
+        display: none;
+    }
+    .why-thrive__description p {
+        font-size: 1.6rem;
+    }*/
+    /*.about-us {
+        padding: 3rem 5%;
+    }
+    .about-us .section-container {
+        width: 100%;
+    }
+    .about-us p {
+        margin-bottom: 5rem;
+        font-size: 1.8rem;
+    }*/
+    /*.nutritional-plans__item {
+        padding: 2rem 3rem 0;
+    }*/
+    /*.pre-footer__image {
+        width: 100%;
+    }
+    .pre-footer__info {
+        width: 100%;
+        padding: 5%;
+    }*/
+    /*.footer {
+        padding: 5%;
+        text-align: center;
+    }*/
+}
+
+@media all and (-ms-high-contrast:none)
+{
+    .d-grid{
+        display: block;
+        margin: 0 auto;
+    }
+    .nutrition-type-item{
+        max-width: 320px;
+    }
+}
